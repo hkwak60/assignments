@@ -3,11 +3,11 @@ import dns.rdatatype
 import dns.query
 import dns.exception
 
-domain = "ns-1404.awsdns-47.org."
+domain = "www.google.co"
 root = '198.41.0.4'
 try:
     query = dns.message.make_query(domain, dns.rdatatype.A)
-    ip = "205.251.192.175"
+    ip = root
     response = dns.query.udp(query, ip, timeout = 2)
     print(response)
 except dns.exception.Timeout:
