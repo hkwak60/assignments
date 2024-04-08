@@ -1,0 +1,34 @@
+            #trial 1(user input: www.google.com)
+__________________________________________________________________
+Input domain: www.google.com
+Question Section: 
+www.google.com          IN      A
+
+Answer Section:
+www.google.com   300    IN      A        142.250.206.228
+Query time:  416 msec
+WHEN: Fri Apr 05 19:34:00 KST  2024
+
+_________________________________________________________________
+            #trial 2(user input: www.cnn.com)
+__________________________________________________________________
+Input domain: www.cnn.com
+Question Section: 
+www.cnn.com             IN      A
+
+Answer Section:
+www.cnn.com      30     IN      A        146.75.51.5
+Query time:  663 msec
+WHEN: Fri Apr 05 19:34:52 KST  2024
+
+__________________________________________________________________
+            #trial 3(user input: aws.amazon.com)
+__________________________________________________________________
+Input domain: aws.amazon.com
+Question Section: 
+aws.amazon.com          IN      A
+
+Answer Section:
+aws.amazon.com   172800         IN      A        205.251.196.148
+Query time:  1012 msec
+WHEN: Fri Apr 05 19:35:22 KST  2024
